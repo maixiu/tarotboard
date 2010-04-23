@@ -1,0 +1,219 @@
+// !$*UTF8*$!
+{
+	0F08BF0711824C50006EBA98 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */;
+		name = "TarotBoardAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 46;
+	};
+	0F08BF1C118258F1006EBA98 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */;
+		name = "TarotBoardAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 49;
+	};
+	0F4F77541181720900C0AFD5 /* TarotBoard */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TarotBoard;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0F4F77621181724000C0AFD5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "google-tarotboard";
+			};
+		};
+	};
+	0F4F77631181724000C0AFD5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0F4F77CA1181772800C0AFD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	0F4F77CB1181772800C0AFD5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TarotBoard-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/maixiu/Documents/MyProjects/TarotBoard/TarotBoard-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	0F4F77CC1181772800C0AFD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */;
+		name = "TarotBoardAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 0;
+	};
+	0F4F77CE1181772800C0AFD5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */;
+		name = "TarotBoardAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 31;
+	};
+	1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 375}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 332}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 429}}";
+			sepNavSelRange = "{472, 0}";
+			sepNavVisRange = "{49, 498}";
+			sepNavWindowFrame = "{{15, 386}, {930, 667}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TarotBoard */ = {
+		activeExec = 0;
+		executables = (
+			0F4F77541181720900C0AFD5 /* TarotBoard */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0F4F77541181720900C0AFD5 /* TarotBoard */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TarotBoard */;
+		codeSenseManager = 0F4F77631181724000C0AFD5 /* Code sense */;
+		executables = (
+			0F4F77541181720900C0AFD5 /* TarotBoard */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					435,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					601,
+					20,
+					48,
+					43,
+					43,
+					20,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+					PBXFileDataSource_SCM_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					601,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293755094;
+			PBXWorkspaceStateSaveDate = 293755094;
+		};
+		perUserProjectItems = {
+			0F08BF0711824C50006EBA98 = 0F08BF0711824C50006EBA98 /* PBXTextBookmark */;
+			0F08BF1C118258F1006EBA98 /* PBXTextBookmark */ = 0F08BF1C118258F1006EBA98 /* PBXTextBookmark */;
+			0F4F77CA1181772800C0AFD5 = 0F4F77CA1181772800C0AFD5 /* PBXTextBookmark */;
+			0F4F77CB1181772800C0AFD5 = 0F4F77CB1181772800C0AFD5 /* PlistBookmark */;
+			0F4F77CC1181772800C0AFD5 = 0F4F77CC1181772800C0AFD5 /* PBXTextBookmark */;
+			0F4F77CE1181772800C0AFD5 = 0F4F77CE1181772800C0AFD5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0F4F77621181724000C0AFD5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 375}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 360}";
+		};
+	};
+}
