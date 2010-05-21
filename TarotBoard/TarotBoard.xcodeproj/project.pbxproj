@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0BFCAD1194B2D7000A4996 /* NewGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F0BFCAC1194B2D7000A4996 /* NewGame.xib */; };
+		0F332AC5118CE1D800E48E7F /* NewGame_old.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F332AC3118CE1D800E48E7F /* NewGame_old.xib */; };
+		0F3B7AA81188DDAA00712E3B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B7AA61188DDAA00712E3B /* MainMenuViewController.m */; };
+		0F3B7AA91188DDAA00712E3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B7AA71188DDAA00712E3B /* MainMenu.xib */; };
+		0F625FAA1195476A0015DA01 /* NewGameDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F625FA81195476A0015DA01 /* NewGameDetailViewController.m */; };
+		0F625FAB1195476A0015DA01 /* NewGameDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F625FA91195476A0015DA01 /* NewGameDetail.xib */; };
+		0F6261531196AC3C0015DA01 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6261521196AC3C0015DA01 /* Default.png */; };
+		0F626256119B47A10015DA01 /* empty_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F626255119B47A10015DA01 /* empty_photo.png */; };
+		0F6262B9119B4F370015DA01 /* StatisticsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6262B7119B4F370015DA01 /* StatisticsMainViewController.m */; };
+		0F6262BA119B4F370015DA01 /* StatisticsMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6262B8119B4F370015DA01 /* StatisticsMain.xib */; };
+		0FA9D8E8119290DE00F5A547 /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA9D8E7119290DE00F5A547 /* NewGameViewController.m */; };
+		0FA9D8EB1192912600F5A547 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA9D8EA1192912600F5A547 /* Player.m */; };
 		1D3623260D0F684500981E51 /* TarotBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -16,8 +28,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0BFCAC1194B2D7000A4996 /* NewGame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewGame.xib; sourceTree = "<group>"; };
+		0F332AC3118CE1D800E48E7F /* NewGame_old.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewGame_old.xib; path = Classes/NewGame_old.xib; sourceTree = "<group>"; };
+		0F3B7AA51188DDAA00712E3B /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		0F3B7AA61188DDAA00712E3B /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		0F3B7AA71188DDAA00712E3B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = Classes/MainMenu.xib; sourceTree = "<group>"; };
+		0F625FA71195476A0015DA01 /* NewGameDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameDetailViewController.h; sourceTree = "<group>"; };
+		0F625FA81195476A0015DA01 /* NewGameDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameDetailViewController.m; sourceTree = "<group>"; };
+		0F625FA91195476A0015DA01 /* NewGameDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewGameDetail.xib; path = Classes/NewGameDetail.xib; sourceTree = "<group>"; };
+		0F6261521196AC3C0015DA01 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F626255119B47A10015DA01 /* empty_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_photo.png; sourceTree = "<group>"; };
+		0F6262B6119B4F370015DA01 /* StatisticsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsMainViewController.h; sourceTree = "<group>"; };
+		0F6262B7119B4F370015DA01 /* StatisticsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsMainViewController.m; sourceTree = "<group>"; };
+		0F6262B8119B4F370015DA01 /* StatisticsMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StatisticsMain.xib; path = Classes/StatisticsMain.xib; sourceTree = "<group>"; };
+		0FA9D8E6119290DE00F5A547 /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
+		0FA9D8E7119290DE00F5A547 /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
+		0FA9D8E91192912600F5A547 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		0FA9D8EA1192912600F5A547 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		0FA9D905119293E300F5A547 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TarotBoardAppDelegate.h; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = TarotBoardAppDelegate.h; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
 		1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarotBoardAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* TarotBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarotBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -47,8 +77,43 @@
 			children = (
 				1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */,
+				0FA9D905119293E300F5A547 /* Constants.h */,
+				0F626158119928D90015DA01 /* Models */,
+				0F626159119928EB0015DA01 /* View Controllers */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		0F625F341194C1A40015DA01 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0F626255119B47A10015DA01 /* empty_photo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0F626158119928D90015DA01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FA9D8E91192912600F5A547 /* Player.h */,
+				0FA9D8EA1192912600F5A547 /* Player.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0F626159119928EB0015DA01 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B7AA51188DDAA00712E3B /* MainMenuViewController.h */,
+				0F3B7AA61188DDAA00712E3B /* MainMenuViewController.m */,
+				0FA9D8E6119290DE00F5A547 /* NewGameViewController.h */,
+				0FA9D8E7119290DE00F5A547 /* NewGameViewController.m */,
+				0F625FA71195476A0015DA01 /* NewGameDetailViewController.h */,
+				0F625FA81195476A0015DA01 /* NewGameDetailViewController.m */,
+				0F6262B6119B4F370015DA01 /* StatisticsMainViewController.h */,
+				0F6262B7119B4F370015DA01 /* StatisticsMainViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -83,7 +148,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F625F341194C1A40015DA01 /* Images */,
+				0F6261521196AC3C0015DA01 /* Default.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				0F3B7AA71188DDAA00712E3B /* MainMenu.xib */,
+				0F0BFCAC1194B2D7000A4996 /* NewGame.xib */,
+				0F625FA91195476A0015DA01 /* NewGameDetail.xib */,
+				0F6262B8119B4F370015DA01 /* StatisticsMain.xib */,
+				0F332AC3118CE1D800E48E7F /* NewGame_old.xib */,
 				8D1107310486CEB800E47090 /* TarotBoard-Info.plist */,
 			);
 			name = Resources;
@@ -125,10 +197,10 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = Maixiu;
+				ORGANIZATIONNAME = "Matthieu Tabuteau";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TarotBoard" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -145,6 +217,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				0F3B7AA91188DDAA00712E3B /* MainMenu.xib in Resources */,
+				0F332AC5118CE1D800E48E7F /* NewGame_old.xib in Resources */,
+				0F0BFCAD1194B2D7000A4996 /* NewGame.xib in Resources */,
+				0F625FAB1195476A0015DA01 /* NewGameDetail.xib in Resources */,
+				0F6261531196AC3C0015DA01 /* Default.png in Resources */,
+				0F626256119B47A10015DA01 /* empty_photo.png in Resources */,
+				0F6262BA119B4F370015DA01 /* StatisticsMain.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +236,11 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* TarotBoardAppDelegate.m in Sources */,
+				0F3B7AA81188DDAA00712E3B /* MainMenuViewController.m in Sources */,
+				0FA9D8E8119290DE00F5A547 /* NewGameViewController.m in Sources */,
+				0FA9D8EB1192912600F5A547 /* Player.m in Sources */,
+				0F625FAA1195476A0015DA01 /* NewGameDetailViewController.m in Sources */,
+				0F6262B9119B4F370015DA01 /* StatisticsMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,12 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos3.1.2;
 			};
 			name = Debug;
 		};
@@ -207,13 +292,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos3.1.2;
 			};
 			name = Release;
 		};

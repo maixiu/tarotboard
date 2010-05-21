@@ -3,7 +3,7 @@
 //  TarotBoard
 //
 //  Created by Matthieu Tabuteau on 23/04/10.
-//  Copyright Intitek 2010. All rights reserved.
+//  Copyright 2010 Matthieu Tabuteau. All rights reserved.
 //
 
 #import "TarotBoardAppDelegate.h"
@@ -11,20 +11,18 @@
 @implementation TarotBoardAppDelegate
 
 @synthesize window;
-
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-
-    // Override point for customization after application launch
-	
+	[window addSubview: navController.view];
     [window makeKeyAndVisible];
 	
 	return NO;
 }
 
-
 - (void)dealloc {
     [window release];
+	[navController release];
     [super dealloc];
 }
 
