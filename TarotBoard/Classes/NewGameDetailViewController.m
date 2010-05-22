@@ -26,7 +26,8 @@
 
 - (void)viewDidLoad {
 	self.title = @"Edit Player";
-	
+
+	choosePicture = NO;
 	UIBarButtonItem *cancel = [[UIBarButtonItem alloc] initWithTitle:@"Cancel"
 															   style:UIBarButtonItemStylePlain
 															  target:self action:@selector(navigationCancel:)];
@@ -43,8 +44,14 @@
 
 
 - (void)viewWillAppear:(BOOL)animated {
-	self.fieldName.text = player.name;
-	self.imgPhoto.image = player.photo;
+	if (!choosePicture) {
+		self.fieldName.text = player.name;
+		self.imgPhoto.image = player.photo;
+	}
+	else {
+		choosePicture = NO;
+	}
+
 }
 
 
@@ -75,8 +82,10 @@
 											   cancelButtonTitle:@ACTION_CANCEL
 										  destructiveButtonTitle:nil
 											   otherButtonTitles:@PHOTO_ACTION_CAMERA, @PHOTO_ACTION_LIBRARY, nil];
-	player.name = fieldName.text;
+	NSString *name = fieldName.text;
 	[action showInView:self.view];
+	
+	fieldName.text = name;
 	[action release];
 }
 
@@ -92,6 +101,7 @@
 		picker.sourceType = [actionSheet buttonTitleAtIndex:buttonIndex] == @PHOTO_ACTION_CAMERA ?
 		UIImagePickerControllerSourceTypeCamera : UIImagePickerControllerSourceTypePhotoLibrary;
 		
+		choosePicture = YES;
 		[self presentModalViewController:picker animated:YES];
 		[picker release];
 	}
@@ -103,7 +113,7 @@
 - (void)imagePickerController:(UIImagePickerController *)picker
 		didFinishPickingImage:(UIImage *)image
 				  editingInfo:(NSDictionary *)editingInfo {
-	player.photo = image;
+	imgPhoto.image = image;
 	[picker dismissModalViewControllerAnimated:YES];
 }
 
@@ -111,7 +121,6 @@
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
 	[picker dismissModalViewControllerAnimated:YES];
 }
-
 
 #pragma mark -
 #pragma mark Table view data source

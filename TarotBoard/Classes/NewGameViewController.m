@@ -33,7 +33,14 @@
 	NSArray *initPlayers = [[NSArray alloc] initWithObjects:player1, player2, player3, player4, player5, nil];
 	self.players = initPlayers;
 	self.detailViewController = detail;
-
+	
+	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Start"
+																	style:UIBarButtonItemStyleDone
+																   target:self
+																   action:@selector(navigationStartClick:)];
+	self.navigationItem.rightBarButtonItem = rightButton;
+	
+	[rightButton release];
 	[detail release];
 	[initPlayers release];
 	[player1 release];
@@ -41,6 +48,7 @@
 	[player3 release];
 	[player4 release];
 	[player5 release];
+	
 	[super viewDidLoad];
 }
 
@@ -48,6 +56,15 @@
 - (void)viewWillAppear:(BOOL)animated {
 	[self.tableView reloadData];
 }
+
+
+#pragma mark -
+#pragma mark Events
+
+- (void)navigationStartClick:(id)sender {
+	// Montrer la feuille de jeu.
+}
+
 
 #pragma mark -
 #pragma mark Table view data source

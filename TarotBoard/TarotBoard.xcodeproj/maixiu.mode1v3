@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,17 +272,18 @@
 								<string>0F626158119928D90015DA01</string>
 								<string>0F626159119928EB0015DA01</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>E2644B35053B69B200211256</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>35</integer>
-									<integer>34</integer>
+									<integer>10</integer>
+									<integer>8</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 137}, {292, 884}}</string>
+							<string>{{0, 0}, {292, 884}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -305,7 +304,7 @@
 							<real>22</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>211 115 1457 943 0 0 1920 1058 </string>
+						<string>281 115 1457 943 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,12 +315,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TarotBoardAppDelegate.m</string>
+								<string>MainMenuViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TarotBoardAppDelegate.m</string>
+										<string>MainMenuViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>0F0315A311A71E44004E9817</string>
+										<string>0FC8D16D11A8166D00CA5D82</string>
 										<key>history</key>
 										<array>
 											<string>0FAEAC9F11825F7C00DBED48</string>
@@ -343,19 +344,19 @@
 											<string>0F332A99118CC66000E48E7F</string>
 											<string>0FA9D9301192955800F5A547</string>
 											<string>0F62615D1199291A0015DA01</string>
-											<string>0F62615E1199291A0015DA01</string>
-											<string>0F6262C8119B50CD0015DA01</string>
-											<string>0F626323119BEE6C0015DA01</string>
-											<string>0FC9589311A6EF20009F2F58</string>
-											<string>0F03154111A71CF8004E9817</string>
-											<string>0F03154211A71CF8004E9817</string>
-											<string>0F03154311A71CF8004E9817</string>
-											<string>0F03154411A71CF8004E9817</string>
 											<string>0F03154511A71CF8004E9817</string>
 											<string>0F03154611A71CF8004E9817</string>
-											<string>0F03158511A71E33004E9817</string>
-											<string>0F03158611A71E33004E9817</string>
-											<string>0F03158711A71E33004E9817</string>
+											<string>0F0315AF11A71F39004E9817</string>
+											<string>0F0315D811A73307004E9817</string>
+											<string>0F03160711A73782004E9817</string>
+											<string>0F03164D11A73B33004E9817</string>
+											<string>0F03164E11A73B33004E9817</string>
+											<string>0F03164F11A73B33004E9817</string>
+											<string>0F03165011A73B33004E9817</string>
+											<string>0F03165211A73B33004E9817</string>
+											<string>0FC8D14E11A815BF00CA5D82</string>
+											<string>0FC8D16B11A8166D00CA5D82</string>
+											<string>0FC8D16C11A8166D00CA5D82</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -367,14 +368,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1143, 622}}</string>
+								<string>{{0, 0}, {1143, 897}}</string>
 								<key>RubberWindowFrame</key>
-								<string>211 115 1457 943 0 0 1920 1058 </string>
+								<string>281 115 1457 943 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>622pt</string>
+							<string>897pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -387,14 +388,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 627}, {1143, 275}}</string>
+								<string>{{0, 902}, {1143, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>211 115 1457 943 0 0 1920 1058 </string>
+								<string>281 115 1457 943 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>275pt</string>
+							<string>0pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -413,9 +414,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>0F0315A411A71E44004E9817</string>
+				<string>0FC8D15111A815BF00CA5D82</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>0F0315A511A71E44004E9817</string>
+				<string>0FC8D15211A815BF00CA5D82</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -576,11 +577,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>0FC8D16E11A8166D00CA5D82</string>
+		<string>0FC8D15C11A815BF00CA5D82</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>0F4F7773118174C900C0AFD5</string>
 		<string>/Users/maixiu/Documents/MyProjects/google-tarotboard/TarotBoard/TarotBoard.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>211 115 1457 943 0 0 1920 1058 </string>
+	<string>281 115 1457 943 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -657,7 +662,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>0F4F7773118174C900C0AFD5</string>
-				<string>0F0315A611A71E44004E9817</string>
+				<string>0FC8D15311A815BF00CA5D82</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -779,13 +784,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>0F03147C11A6F449004E9817</string>
+				<string>0FC8D15411A815BF00CA5D82</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>0F03147D11A6F449004E9817</string>
-				<string>0F03147E11A6F449004E9817</string>
-				<string>0F03147F11A6F449004E9817</string>
-				<string>0F03148011A6F449004E9817</string>
-				<string>0F03148111A6F449004E9817</string>
+				<string>0FC8D15511A815BF00CA5D82</string>
+				<string>0FC8D15611A815BF00CA5D82</string>
+				<string>0FC8D15711A815BF00CA5D82</string>
+				<string>0FC8D15811A815BF00CA5D82</string>
+				<string>0FC8D15911A815BF00CA5D82</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -947,7 +952,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>0F03148211A6F449004E9817</string>
+				<string>0FC8D15A11A815BF00CA5D82</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -1242,8 +1247,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>0F626218119B43400015DA01</string>
-				<string>0F626219119B43400015DA01</string>
+				<string>0F0315D411A73301004E9817</string>
+				<string>0F0315D511A73301004E9817</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>1CA1AED706398EBD00589147</string>
 			</array>
@@ -1252,7 +1257,7 @@
 			<key>WindowString</key>
 			<string>234 626 744 409 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
-			<string>0F626218119B43400015DA01</string>
+			<string>0F0315D411A73301004E9817</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>
