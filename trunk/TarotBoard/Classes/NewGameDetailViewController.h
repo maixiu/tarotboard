@@ -10,14 +10,15 @@
 
 @class Player;
 
-@interface NewGameDetailViewController : UITableViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate,
-																UIActionSheetDelegate> {
+@interface NewGameDetailViewController : UITableViewController <UIImagePickerControllerDelegate,
+UINavigationControllerDelegate, UIActionSheetDelegate> {
 	Player *player;
 	UITableViewCell *cellPicture;
 	UITableViewCell *cellName;
 	UITextField *fieldName;
 	UIImageView *imgPhoto;
 	UIButton *btnPhoto;
+	bool choosePicture;
 }
 
 @property (nonatomic, retain) Player *player;
