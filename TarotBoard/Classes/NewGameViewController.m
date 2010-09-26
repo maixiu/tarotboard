@@ -8,6 +8,7 @@
 
 #import "NewGameViewController.h"
 #import "NewGameDetailViewController.h"
+#import "GameMainViewController.h"
 #import "Player.h"
 
 @implementation NewGameViewController
@@ -62,7 +63,10 @@
 #pragma mark Events
 
 - (void)navigationStartClick:(id)sender {
-	// Montrer la feuille de jeu.
+	GameMainViewController *gameMainView = [[GameMainViewController alloc] initWithNibName:@"GameMainView" bundle:nil];
+	[self.navigationController pushViewController:gameMainView animated:YES];
+	
+	[gameMainView release];
 }
 
 

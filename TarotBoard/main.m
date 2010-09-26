@@ -3,7 +3,7 @@
 //  TarotBoard
 //
 //  Created by Matthieu Tabuteau on 23/04/10.
-//  Copyright Intitek 2010. All rights reserved.
+//  Copyright 2010 Matthieu Tabuteau. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

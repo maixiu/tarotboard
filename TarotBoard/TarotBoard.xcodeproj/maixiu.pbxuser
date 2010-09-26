@@ -24,7 +24,7 @@
 	0F2E522211B84CB3009FA250 /* GameMainViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1064, 925}}";
-			sepNavSelRange = "{221, 17}";
+			sepNavSelRange = "{251, 0}";
 			sepNavVisRange = "{0, 251}";
 		};
 	};
@@ -118,7 +118,7 @@
 	};
 	0F625FA81195476A0015DA01 /* NewGameDetailViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1064, 2392}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 2340}}";
 			sepNavSelRange = "{395, 0}";
 			sepNavVisRange = "{268, 1835}";
 		};
@@ -460,6 +460,14 @@
 			sepNavVisRange = "{0, 247}";
 		};
 	};
+	0FE44CE5124F7E5C0086A20A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0FE44CB6124F43950086A20A /* stats.png */;
+	};
+	0FE44CE6124F7E5C0086A20A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 0FE44CB6124F43950086A20A /* stats.png */;
+	};
 	1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1064, 902}}";
@@ -677,6 +685,8 @@
 			0FE44C6E124D4A7F0086A20A = 0FE44C6E124D4A7F0086A20A /* PBXTextBookmark */;
 			0FE44C6F124D4A7F0086A20A = 0FE44C6F124D4A7F0086A20A /* PBXTextBookmark */;
 			0FE44C73124D4FA30086A20A = 0FE44C73124D4FA30086A20A /* PBXTextBookmark */;
+			0FE44CE5124F7E5C0086A20A /* PBXBookmark */ = 0FE44CE5124F7E5C0086A20A /* PBXBookmark */;
+			0FE44CE6124F7E5C0086A20A /* PBXBookmark */ = 0FE44CE6124F7E5C0086A20A /* PBXBookmark */;
 		};
 		sourceControlManager = 0F4F77621181724000C0AFD5 /* Source Control */;
 		userBookmarkGroup = 0FE3BA171187818A0020BA42 /* PBXBookmarkGroup */;
@@ -685,7 +695,7 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1064, 902}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 925}}";
 			sepNavSelRange = "{136, 0}";
 			sepNavVisRange = "{0, 370}";
 		};
