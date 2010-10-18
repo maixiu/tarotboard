@@ -11,8 +11,7 @@
 
 @implementation Player
 
-@synthesize name;
-@synthesize photo;
+@synthesize name, photo, score;
 
 - (void)dealloc{
     [photo release];

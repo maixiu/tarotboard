@@ -12,11 +12,13 @@
 @interface Player : NSObject {
 	NSString *name;
 	UIImage *photo;
+	int score;
 }
 
 - (id)initWithName:(NSString *)initName withPhoto:(UIImage *)initPhoto;
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, retain) UIImage *photo;
+@property (nonatomic) int score;
 
 @end
