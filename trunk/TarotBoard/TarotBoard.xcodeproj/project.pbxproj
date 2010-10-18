@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0F0BFCAD1194B2D7000A4996 /* NewGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F0BFCAC1194B2D7000A4996 /* NewGame.xib */; };
+		0F1602E512610EA600666CBF /* NewRoundPageButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1602E412610EA600666CBF /* NewRoundPageButtons.m */; };
+		0F16FFA5125B4AFB00666CBF /* NewRoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16FFA3125B4AFB00666CBF /* NewRoundViewController.m */; };
+		0F16FFA6125B4AFB00666CBF /* NewRound.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F16FFA4125B4AFB00666CBF /* NewRound.xib */; };
 		0F2E522511B84CB3009FA250 /* GameMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E522311B84CB3009FA250 /* GameMainViewController.m */; };
 		0F3B7AA81188DDAA00712E3B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B7AA61188DDAA00712E3B /* MainMenuViewController.m */; };
 		0F3B7AA91188DDAA00712E3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B7AA71188DDAA00712E3B /* MainMenu.xib */; };
@@ -16,11 +19,16 @@
 		0F626256119B47A10015DA01 /* empty_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F626255119B47A10015DA01 /* empty_photo.png */; };
 		0F6262B9119B4F370015DA01 /* StatisticsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6262B7119B4F370015DA01 /* StatisticsMainViewController.m */; };
 		0F6262BA119B4F370015DA01 /* StatisticsMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F6262B8119B4F370015DA01 /* StatisticsMain.xib */; };
+		0F6D3E5C1265853D0095D9CA /* NewRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D3E5B1265853D0095D9CA /* NewRound.m */; };
+		0F6D3E8E1265D14D0095D9CA /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D3E8D1265D14D0095D9CA /* Utility.m */; };
+		0F6D3F14126649B70095D9CA /* RoundDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D3F13126649B70095D9CA /* RoundDetails.m */; };
+		0F6D3F26126652090095D9CA /* ScoringBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D3F25126652090095D9CA /* ScoringBase.m */; };
+		0F6D40B2126B580E0095D9CA /* ScoringOfficial.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D40B1126B580E0095D9CA /* ScoringOfficial.m */; };
 		0FA9D8E8119290DE00F5A547 /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA9D8E7119290DE00F5A547 /* NewGameViewController.m */; };
 		0FA9D8EB1192912600F5A547 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA9D8EA1192912600F5A547 /* Player.m */; };
 		0FE44B0A124BFD5F0086A20A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44B09124BFD5F0086A20A /* Default.png */; };
-		0FE44B75124D353E0086A20A /* ClassementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE44B73124D353E0086A20A /* ClassementViewController.m */; };
-		0FE44B76124D353E0086A20A /* Classement.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44B74124D353E0086A20A /* Classement.xib */; };
+		0FE44B75124D353E0086A20A /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE44B73124D353E0086A20A /* RankingViewController.m */; };
+		0FE44B76124D353E0086A20A /* Ranking.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44B74124D353E0086A20A /* Ranking.xib */; };
 		0FE44C7D124F3C0E0086A20A /* ManchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE44C7B124F3C0E0086A20A /* ManchesViewController.m */; };
 		0FE44C7E124F3C0E0086A20A /* Manches.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44C7C124F3C0E0086A20A /* Manches.xib */; };
 		0FE44C82124F3C3E0086A20A /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE44C80124F3C3E0086A20A /* StatisticsViewController.m */; };
@@ -32,6 +40,10 @@
 		0FE44CB7124F43950086A20A /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44CB6124F43950086A20A /* stats.png */; };
 		0FE44CBD124F44840086A20A /* line-chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44CBC124F44840086A20A /* line-chart.png */; };
 		0FE44CBF124F449E0086A20A /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44CBE124F449E0086A20A /* user.png */; };
+		0FE44DBB1253DADF0086A20A /* RankingUserControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE44DBA1253DADF0086A20A /* RankingUserControl.m */; };
+		0FE44E0A1255266F0086A20A /* Bronze Medal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44E091255266F0086A20A /* Bronze Medal.png */; };
+		0FE44E0C1255267C0086A20A /* Gold Medal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44E0B1255267C0086A20A /* Gold Medal.png */; };
+		0FE44E0E125526830086A20A /* Silver Medal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44E0D125526830086A20A /* Silver Medal.png */; };
 		1D3623260D0F684500981E51 /* TarotBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -42,6 +54,11 @@
 
 /* Begin PBXFileReference section */
 		0F0BFCAC1194B2D7000A4996 /* NewGame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewGame.xib; sourceTree = "<group>"; };
+		0F1602E312610EA600666CBF /* NewRoundPageButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRoundPageButtons.h; sourceTree = "<group>"; };
+		0F1602E412610EA600666CBF /* NewRoundPageButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRoundPageButtons.m; sourceTree = "<group>"; };
+		0F16FFA2125B4AFB00666CBF /* NewRoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRoundViewController.h; sourceTree = "<group>"; };
+		0F16FFA3125B4AFB00666CBF /* NewRoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRoundViewController.m; sourceTree = "<group>"; };
+		0F16FFA4125B4AFB00666CBF /* NewRound.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewRound.xib; path = Classes/NewRound.xib; sourceTree = "<group>"; };
 		0F2E522211B84CB3009FA250 /* GameMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainViewController.h; sourceTree = "<group>"; };
 		0F2E522311B84CB3009FA250 /* GameMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainViewController.m; sourceTree = "<group>"; };
 		0F3B7AA51188DDAA00712E3B /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
@@ -54,15 +71,25 @@
 		0F6262B6119B4F370015DA01 /* StatisticsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsMainViewController.h; sourceTree = "<group>"; };
 		0F6262B7119B4F370015DA01 /* StatisticsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsMainViewController.m; sourceTree = "<group>"; };
 		0F6262B8119B4F370015DA01 /* StatisticsMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StatisticsMain.xib; path = Classes/StatisticsMain.xib; sourceTree = "<group>"; };
+		0F6D3E5A1265853D0095D9CA /* NewRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRound.h; sourceTree = "<group>"; };
+		0F6D3E5B1265853D0095D9CA /* NewRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRound.m; sourceTree = "<group>"; };
+		0F6D3E8C1265D14D0095D9CA /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		0F6D3E8D1265D14D0095D9CA /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		0F6D3F12126649B70095D9CA /* RoundDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundDetails.h; sourceTree = "<group>"; };
+		0F6D3F13126649B70095D9CA /* RoundDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundDetails.m; sourceTree = "<group>"; };
+		0F6D3F24126652090095D9CA /* ScoringBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoringBase.h; sourceTree = "<group>"; };
+		0F6D3F25126652090095D9CA /* ScoringBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoringBase.m; sourceTree = "<group>"; };
+		0F6D40B0126B580E0095D9CA /* ScoringOfficial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoringOfficial.h; sourceTree = "<group>"; };
+		0F6D40B1126B580E0095D9CA /* ScoringOfficial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoringOfficial.m; sourceTree = "<group>"; };
 		0FA9D8E6119290DE00F5A547 /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
 		0FA9D8E7119290DE00F5A547 /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
 		0FA9D8E91192912600F5A547 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		0FA9D8EA1192912600F5A547 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		0FA9D905119293E300F5A547 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		0FE44B09124BFD5F0086A20A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0FE44B72124D353E0086A20A /* ClassementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassementViewController.h; sourceTree = "<group>"; };
-		0FE44B73124D353E0086A20A /* ClassementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassementViewController.m; sourceTree = "<group>"; };
-		0FE44B74124D353E0086A20A /* Classement.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Classement.xib; path = Classes/Classement.xib; sourceTree = "<group>"; };
+		0FE44B72124D353E0086A20A /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		0FE44B73124D353E0086A20A /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		0FE44B74124D353E0086A20A /* Ranking.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Ranking.xib; path = Classes/Ranking.xib; sourceTree = "<group>"; };
 		0FE44C7A124F3C0E0086A20A /* ManchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManchesViewController.h; sourceTree = "<group>"; };
 		0FE44C7B124F3C0E0086A20A /* ManchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManchesViewController.m; sourceTree = "<group>"; };
 		0FE44C7C124F3C0E0086A20A /* Manches.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Manches.xib; path = Classes/Manches.xib; sourceTree = "<group>"; };
@@ -77,6 +104,11 @@
 		0FE44CB6124F43950086A20A /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
 		0FE44CBC124F44840086A20A /* line-chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line-chart.png"; sourceTree = "<group>"; };
 		0FE44CBE124F449E0086A20A /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		0FE44DB91253DADF0086A20A /* RankingUserControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingUserControl.h; sourceTree = "<group>"; };
+		0FE44DBA1253DADF0086A20A /* RankingUserControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingUserControl.m; sourceTree = "<group>"; };
+		0FE44E091255266F0086A20A /* Bronze Medal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bronze Medal.png"; sourceTree = "<group>"; };
+		0FE44E0B1255267C0086A20A /* Gold Medal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gold Medal.png"; sourceTree = "<group>"; };
+		0FE44E0D125526830086A20A /* Silver Medal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Silver Medal.png"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = TarotBoardAppDelegate.h; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
 		1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TarotBoardAppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +138,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0F6D41B4126B9C020095D9CA /* Utility */,
 				1D3623240D0F684500981E51 /* TarotBoardAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TarotBoardAppDelegate.m */,
 				0FA9D905119293E300F5A547 /* Constants.h */,
@@ -115,9 +148,31 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		0F1602E212610E2500666CBF /* NewRound */ = {
+			isa = PBXGroup;
+			children = (
+				0F16FFA2125B4AFB00666CBF /* NewRoundViewController.h */,
+				0F16FFA3125B4AFB00666CBF /* NewRoundViewController.m */,
+				0F1602E312610EA600666CBF /* NewRoundPageButtons.h */,
+				0F1602E412610EA600666CBF /* NewRoundPageButtons.m */,
+			);
+			name = NewRound;
+			sourceTree = "<group>";
+		};
+		0F1604301263A05900666CBF /* NewRound */ = {
+			isa = PBXGroup;
+			children = (
+				0F16FFA4125B4AFB00666CBF /* NewRound.xib */,
+			);
+			name = NewRound;
+			sourceTree = "<group>";
+		};
 		0F625F341194C1A40015DA01 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0FE44E0D125526830086A20A /* Silver Medal.png */,
+				0FE44E0B1255267C0086A20A /* Gold Medal.png */,
+				0FE44E091255266F0086A20A /* Bronze Medal.png */,
 				0FE44CBE124F449E0086A20A /* user.png */,
 				0FE44CBC124F44840086A20A /* line-chart.png */,
 				0FE44CB6124F43950086A20A /* stats.png */,
@@ -133,6 +188,10 @@
 			children = (
 				0FA9D8E91192912600F5A547 /* Player.h */,
 				0FA9D8EA1192912600F5A547 /* Player.m */,
+				0F6D3E5A1265853D0095D9CA /* NewRound.h */,
+				0F6D3E5B1265853D0095D9CA /* NewRound.m */,
+				0F6D3F12126649B70095D9CA /* RoundDetails.h */,
+				0F6D3F13126649B70095D9CA /* RoundDetails.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -155,17 +214,33 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
+		0F6D41B4126B9C020095D9CA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0F6D3E8C1265D14D0095D9CA /* Utility.h */,
+				0F6D3E8D1265D14D0095D9CA /* Utility.m */,
+				0F6D3F24126652090095D9CA /* ScoringBase.h */,
+				0F6D3F25126652090095D9CA /* ScoringBase.m */,
+				0F6D40B0126B580E0095D9CA /* ScoringOfficial.h */,
+				0F6D40B1126B580E0095D9CA /* ScoringOfficial.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		0FE44B71124D34610086A20A /* GameMainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FE44B72124D353E0086A20A /* ClassementViewController.h */,
-				0FE44B73124D353E0086A20A /* ClassementViewController.m */,
+				0F1602E212610E2500666CBF /* NewRound */,
+				0FE44B72124D353E0086A20A /* RankingViewController.h */,
+				0FE44B73124D353E0086A20A /* RankingViewController.m */,
 				0FE44C7A124F3C0E0086A20A /* ManchesViewController.h */,
 				0FE44C7B124F3C0E0086A20A /* ManchesViewController.m */,
 				0FE44C7F124F3C3E0086A20A /* StatisticsViewController.h */,
 				0FE44C80124F3C3E0086A20A /* StatisticsViewController.m */,
 				0FE44C84124F3CA20086A20A /* PlayersViewController.h */,
 				0FE44C85124F3CA20086A20A /* PlayersViewController.m */,
+				0FE44DB91253DADF0086A20A /* RankingUserControl.h */,
+				0FE44DBA1253DADF0086A20A /* RankingUserControl.m */,
 			);
 			name = GameMainViewControllers;
 			sourceTree = "<group>";
@@ -173,7 +248,8 @@
 		0FE44C89124F3CBE0086A20A /* GameMainViews */ = {
 			isa = PBXGroup;
 			children = (
-				0FE44B74124D353E0086A20A /* Classement.xib */,
+				0F1604301263A05900666CBF /* NewRound */,
+				0FE44B74124D353E0086A20A /* Ranking.xib */,
 				0FE44C7C124F3C0E0086A20A /* Manches.xib */,
 				0FE44C81124F3C3E0086A20A /* Statistics.xib */,
 				0FE44C86124F3CA20086A20A /* Players.xib */,
@@ -288,7 +364,7 @@
 				0F626256119B47A10015DA01 /* empty_photo.png in Resources */,
 				0F6262BA119B4F370015DA01 /* StatisticsMain.xib in Resources */,
 				0FE44B0A124BFD5F0086A20A /* Default.png in Resources */,
-				0FE44B76124D353E0086A20A /* Classement.xib in Resources */,
+				0FE44B76124D353E0086A20A /* Ranking.xib in Resources */,
 				0FE44C7E124F3C0E0086A20A /* Manches.xib in Resources */,
 				0FE44C83124F3C3E0086A20A /* Statistics.xib in Resources */,
 				0FE44C88124F3CA20086A20A /* Players.xib in Resources */,
@@ -297,6 +373,10 @@
 				0FE44CB7124F43950086A20A /* stats.png in Resources */,
 				0FE44CBD124F44840086A20A /* line-chart.png in Resources */,
 				0FE44CBF124F449E0086A20A /* user.png in Resources */,
+				0FE44E0A1255266F0086A20A /* Bronze Medal.png in Resources */,
+				0FE44E0C1255267C0086A20A /* Gold Medal.png in Resources */,
+				0FE44E0E125526830086A20A /* Silver Medal.png in Resources */,
+				0F16FFA6125B4AFB00666CBF /* NewRound.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +395,18 @@
 				0F625FAA1195476A0015DA01 /* NewGameDetailViewController.m in Sources */,
 				0F6262B9119B4F370015DA01 /* StatisticsMainViewController.m in Sources */,
 				0F2E522511B84CB3009FA250 /* GameMainViewController.m in Sources */,
-				0FE44B75124D353E0086A20A /* ClassementViewController.m in Sources */,
+				0FE44B75124D353E0086A20A /* RankingViewController.m in Sources */,
 				0FE44C7D124F3C0E0086A20A /* ManchesViewController.m in Sources */,
 				0FE44C82124F3C3E0086A20A /* StatisticsViewController.m in Sources */,
 				0FE44C87124F3CA20086A20A /* PlayersViewController.m in Sources */,
+				0FE44DBB1253DADF0086A20A /* RankingUserControl.m in Sources */,
+				0F16FFA5125B4AFB00666CBF /* NewRoundViewController.m in Sources */,
+				0F1602E512610EA600666CBF /* NewRoundPageButtons.m in Sources */,
+				0F6D3E5C1265853D0095D9CA /* NewRound.m in Sources */,
+				0F6D3E8E1265D14D0095D9CA /* Utility.m in Sources */,
+				0F6D3F14126649B70095D9CA /* RoundDetails.m in Sources */,
+				0F6D3F26126652090095D9CA /* ScoringBase.m in Sources */,
+				0F6D40B2126B580E0095D9CA /* ScoringOfficial.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

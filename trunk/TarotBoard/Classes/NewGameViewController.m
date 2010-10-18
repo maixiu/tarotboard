@@ -64,6 +64,9 @@
 
 - (void)navigationStartClick:(id)sender {
 	GameMainViewController *gameMainView = [[GameMainViewController alloc] initWithNibName:@"GameMainView" bundle:nil];
+	
+	gameMainView.players = players;
+		
 	[self.navigationController pushViewController:gameMainView animated:YES];
 	
 	[gameMainView release];
