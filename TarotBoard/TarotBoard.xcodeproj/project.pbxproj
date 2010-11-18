@@ -11,9 +11,11 @@
 		0F1602E512610EA600666CBF /* NewRoundPageButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1602E412610EA600666CBF /* NewRoundPageButtons.m */; };
 		0F16FFA5125B4AFB00666CBF /* NewRoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16FFA3125B4AFB00666CBF /* NewRoundViewController.m */; };
 		0F16FFA6125B4AFB00666CBF /* NewRound.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F16FFA4125B4AFB00666CBF /* NewRound.xib */; };
+		0F1D71DB128430F00025D058 /* ScoringFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D71DA128430F00025D058 /* ScoringFamily.m */; };
 		0F2E522511B84CB3009FA250 /* GameMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E522311B84CB3009FA250 /* GameMainViewController.m */; };
 		0F3B7AA81188DDAA00712E3B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B7AA61188DDAA00712E3B /* MainMenuViewController.m */; };
 		0F3B7AA91188DDAA00712E3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3B7AA71188DDAA00712E3B /* MainMenu.xib */; };
+		0F42C3CE12777182003CA9F5 /* ManchesPlayersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F42C3CD12777182003CA9F5 /* ManchesPlayersView.m */; };
 		0F625FAA1195476A0015DA01 /* NewGameDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F625FA81195476A0015DA01 /* NewGameDetailViewController.m */; };
 		0F625FAB1195476A0015DA01 /* NewGameDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F625FA91195476A0015DA01 /* NewGameDetail.xib */; };
 		0F626256119B47A10015DA01 /* empty_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F626255119B47A10015DA01 /* empty_photo.png */; };
@@ -24,6 +26,7 @@
 		0F6D3F14126649B70095D9CA /* RoundDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D3F13126649B70095D9CA /* RoundDetails.m */; };
 		0F6D3F26126652090095D9CA /* ScoringBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D3F25126652090095D9CA /* ScoringBase.m */; };
 		0F6D40B2126B580E0095D9CA /* ScoringOfficial.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D40B1126B580E0095D9CA /* ScoringOfficial.m */; };
+		0F6D431C126DB7080095D9CA /* ManchesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6D431B126DB7080095D9CA /* ManchesView.m */; };
 		0FA9D8E8119290DE00F5A547 /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA9D8E7119290DE00F5A547 /* NewGameViewController.m */; };
 		0FA9D8EB1192912600F5A547 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA9D8EA1192912600F5A547 /* Player.m */; };
 		0FE44B0A124BFD5F0086A20A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE44B09124BFD5F0086A20A /* Default.png */; };
@@ -59,11 +62,15 @@
 		0F16FFA2125B4AFB00666CBF /* NewRoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRoundViewController.h; sourceTree = "<group>"; };
 		0F16FFA3125B4AFB00666CBF /* NewRoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRoundViewController.m; sourceTree = "<group>"; };
 		0F16FFA4125B4AFB00666CBF /* NewRound.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewRound.xib; path = Classes/NewRound.xib; sourceTree = "<group>"; };
+		0F1D71D9128430F00025D058 /* ScoringFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoringFamily.h; sourceTree = "<group>"; };
+		0F1D71DA128430F00025D058 /* ScoringFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoringFamily.m; sourceTree = "<group>"; };
 		0F2E522211B84CB3009FA250 /* GameMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMainViewController.h; sourceTree = "<group>"; };
 		0F2E522311B84CB3009FA250 /* GameMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMainViewController.m; sourceTree = "<group>"; };
 		0F3B7AA51188DDAA00712E3B /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		0F3B7AA61188DDAA00712E3B /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		0F3B7AA71188DDAA00712E3B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = Classes/MainMenu.xib; sourceTree = "<group>"; };
+		0F42C3CC12777182003CA9F5 /* ManchesPlayersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManchesPlayersView.h; sourceTree = "<group>"; };
+		0F42C3CD12777182003CA9F5 /* ManchesPlayersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManchesPlayersView.m; sourceTree = "<group>"; };
 		0F625FA71195476A0015DA01 /* NewGameDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameDetailViewController.h; sourceTree = "<group>"; };
 		0F625FA81195476A0015DA01 /* NewGameDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameDetailViewController.m; sourceTree = "<group>"; };
 		0F625FA91195476A0015DA01 /* NewGameDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewGameDetail.xib; path = Classes/NewGameDetail.xib; sourceTree = "<group>"; };
@@ -81,6 +88,8 @@
 		0F6D3F25126652090095D9CA /* ScoringBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoringBase.m; sourceTree = "<group>"; };
 		0F6D40B0126B580E0095D9CA /* ScoringOfficial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoringOfficial.h; sourceTree = "<group>"; };
 		0F6D40B1126B580E0095D9CA /* ScoringOfficial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoringOfficial.m; sourceTree = "<group>"; };
+		0F6D431A126DB7080095D9CA /* ManchesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManchesView.h; sourceTree = "<group>"; };
+		0F6D431B126DB7080095D9CA /* ManchesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManchesView.m; sourceTree = "<group>"; };
 		0FA9D8E6119290DE00F5A547 /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
 		0FA9D8E7119290DE00F5A547 /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
 		0FA9D8E91192912600F5A547 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -223,24 +232,46 @@
 				0F6D3F25126652090095D9CA /* ScoringBase.m */,
 				0F6D40B0126B580E0095D9CA /* ScoringOfficial.h */,
 				0F6D40B1126B580E0095D9CA /* ScoringOfficial.m */,
+				0F1D71D9128430F00025D058 /* ScoringFamily.h */,
+				0F1D71DA128430F00025D058 /* ScoringFamily.m */,
 			);
 			name = Utility;
+			sourceTree = "<group>";
+		};
+		0F6D4318126DB5D80095D9CA /* Manches */ = {
+			isa = PBXGroup;
+			children = (
+				0FE44C7A124F3C0E0086A20A /* ManchesViewController.h */,
+				0FE44C7B124F3C0E0086A20A /* ManchesViewController.m */,
+				0F6D431A126DB7080095D9CA /* ManchesView.h */,
+				0F6D431B126DB7080095D9CA /* ManchesView.m */,
+				0F42C3CC12777182003CA9F5 /* ManchesPlayersView.h */,
+				0F42C3CD12777182003CA9F5 /* ManchesPlayersView.m */,
+			);
+			name = Manches;
+			sourceTree = "<group>";
+		};
+		0F6D4319126DB6500095D9CA /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				0FE44B72124D353E0086A20A /* RankingViewController.h */,
+				0FE44B73124D353E0086A20A /* RankingViewController.m */,
+				0FE44DB91253DADF0086A20A /* RankingUserControl.h */,
+				0FE44DBA1253DADF0086A20A /* RankingUserControl.m */,
+			);
+			name = Ranking;
 			sourceTree = "<group>";
 		};
 		0FE44B71124D34610086A20A /* GameMainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0F6D4319126DB6500095D9CA /* Ranking */,
+				0F6D4318126DB5D80095D9CA /* Manches */,
 				0F1602E212610E2500666CBF /* NewRound */,
-				0FE44B72124D353E0086A20A /* RankingViewController.h */,
-				0FE44B73124D353E0086A20A /* RankingViewController.m */,
-				0FE44C7A124F3C0E0086A20A /* ManchesViewController.h */,
-				0FE44C7B124F3C0E0086A20A /* ManchesViewController.m */,
 				0FE44C7F124F3C3E0086A20A /* StatisticsViewController.h */,
 				0FE44C80124F3C3E0086A20A /* StatisticsViewController.m */,
 				0FE44C84124F3CA20086A20A /* PlayersViewController.h */,
 				0FE44C85124F3CA20086A20A /* PlayersViewController.m */,
-				0FE44DB91253DADF0086A20A /* RankingUserControl.h */,
-				0FE44DBA1253DADF0086A20A /* RankingUserControl.m */,
 			);
 			name = GameMainViewControllers;
 			sourceTree = "<group>";
@@ -342,7 +373,14 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TarotBoard" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -407,6 +445,9 @@
 				0F6D3F14126649B70095D9CA /* RoundDetails.m in Sources */,
 				0F6D3F26126652090095D9CA /* ScoringBase.m in Sources */,
 				0F6D40B2126B580E0095D9CA /* ScoringOfficial.m in Sources */,
+				0F6D431C126DB7080095D9CA /* ManchesView.m in Sources */,
+				0F42C3CE12777182003CA9F5 /* ManchesPlayersView.m in Sources */,
+				0F1D71DB128430F00025D058 /* ScoringFamily.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
