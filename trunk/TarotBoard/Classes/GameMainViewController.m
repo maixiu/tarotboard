@@ -16,6 +16,7 @@
 #import "RoundDetails.h"
 #import "ScoringBase.h";
 #import "ScoringOfficial.h";
+#import "ScoringFamily.h";
 #import "StatisticsViewController.h"
 
 @implementation GameMainViewController
@@ -42,6 +43,7 @@
 	ManchesViewController *initManchesTab = [[ManchesViewController alloc] initWithNibName:@"Manches" bundle:nil];
 	initManchesTab.title = @"Manches";
 	initManchesTab.tabBarItem.image = [UIImage imageNamed:@"bar-chart.png"];
+	[initManchesTab loadView];
 	self.manchesTab = initManchesTab;
 	[tabs addObject:initManchesTab];
 	
@@ -71,6 +73,7 @@
 	[players release];
 	players = [_players copy];
 	rankingTab.players = players;
+	manchesTab.players = players;
 }
 
 #pragma mark -
@@ -86,7 +89,7 @@
 }
 
 - (void)newRound:(id)sender doneWithRound:(NewRound *)round {
-	ScoringBase *scoring = [[ScoringOfficial alloc] init];
+	ScoringBase *scoring = [[ScoringFamily alloc] init];
 	RoundDetails *details = [scoring roundDetailsFromNewRound:round fromPlayers:players];
 
 	//update the players score
@@ -96,6 +99,7 @@
 	}
 	
 	[rankingTab updateViewWithPlayers:players];
+	[manchesTab updateViewWithRound:details];
 }
 
 #pragma mark -

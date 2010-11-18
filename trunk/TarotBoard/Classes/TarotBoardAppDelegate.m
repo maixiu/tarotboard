@@ -17,7 +17,7 @@
 	[window addSubview: navController.view];
     [window makeKeyAndVisible];
 	
-	return NO;
+	return YES;
 }
 
 - (void)dealloc {

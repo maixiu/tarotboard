@@ -12,16 +12,12 @@
 
 @implementation RankingViewController
 
-@synthesize rankings, players, ranking1, ranking2, ranking3, ranking4, ranking5, scrollView;
+@synthesize players, ranking1, ranking2, ranking3, ranking4, ranking5, scrollView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, scrollView.frame.size.height + 1);
 	
-	rankings = [[NSArray alloc] initWithObjects:
-							 ranking1, ranking2, ranking3, ranking4, ranking5, nil];
-	
-    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, scrollView.frame.size.height + 1);
-
 	[ranking1 updateControl:[players objectAtIndex:0] withRank:0];
 	[ranking2 updateControl:[players objectAtIndex:1] withRank:0];
 	[ranking3 updateControl:[players objectAtIndex:2] withRank:0];
@@ -59,12 +55,15 @@ NSInteger playerSort(id player1, id player2, void *context) {
 		[ranks addObject:[NSNumber numberWithInt:pos]];
 	}
 	
+	NSArray *rankings = [[NSArray alloc] initWithObjects:
+						 ranking1, ranking2, ranking3, ranking4, ranking5, nil];
 	for (int i = 0; i < [_players count]; i++) {
 		RankingUserControl *rankControl = [rankings objectAtIndex:i];
 		[rankControl updateControl:[orderedPlayers objectAtIndex:i] withRank:[[ranks objectAtIndex:i] intValue]];
 	}
 	
 	[ranks release];
+	[rankings release];
 }
 
 #pragma mark -
@@ -86,8 +85,6 @@ NSInteger playerSort(id player1, id player2, void *context) {
 	[ranking3 release], ranking3 = nil;
 	[ranking4 release], ranking4 = nil;
 	[ranking5 release], ranking5 = nil;
-	[rankings release], rankings = nil;
-	[players release], players = nil;
 	[scrollView release], scrollView = nil;
     [super dealloc];
 }

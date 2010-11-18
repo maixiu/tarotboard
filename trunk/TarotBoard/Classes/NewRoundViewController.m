@@ -114,13 +114,30 @@
 	int bouts = [scorePicker selectedRowInComponent:0];
 	int score = [scorePicker selectedRowInComponent:1];
 	
-	NewRound *round = [[NewRound alloc] initWithPreneur:pagePreneur.selectedIndex
-								   withPartenaire:pagePartenaire.selectedIndex
-									  withContrat:[Utility contratTypeForIndex:pageContrat.selectedIndex]
-										withBouts:bouts
-										withScore:score];
-	[delegate newRound:self doneWithRound:round];
-	[self dismissModalViewControllerAnimated:YES];
+	if (pagePreneur.selectedIndex != -1 &&
+		pagePartenaire.selectedIndex != -1 &&
+		pageContrat.selectedIndex != -1) {
+		
+		NewRound *round = [[NewRound alloc] initWithPreneur:pagePreneur.selectedIndex
+											 withPartenaire:pagePartenaire.selectedIndex
+												withContrat:[Utility contratTypeForIndex:pageContrat.selectedIndex]
+												  withBouts:bouts
+												  withScore:score];
+		[delegate newRound:self doneWithRound:round];
+		[self dismissModalViewControllerAnimated:YES];
+	}
+	else  {
+		
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Nouvelle manche"
+														message:@"Vous n'avez pas sélectionné toutes les informations nécessaires."
+													   delegate:nil
+											  cancelButtonTitle:@"Désolé"
+											  otherButtonTitles:nil];
+		[alert show];
+		[alert release];
+	}
+
+	
 }
 
 #pragma mark -

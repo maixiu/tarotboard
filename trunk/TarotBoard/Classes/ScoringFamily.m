@@ -1,23 +1,23 @@
 //
-//  ScoringOfficial.m
+//  ScoringFamily.m
 //  TarotBoard
 //
-//  Created by Matthieu Tabuteau on 17/10/10.
+//  Created by Matthieu Tabuteau on 05/11/10.
 //  Copyright 2010 Matthieu Tabuteau. All rights reserved.
 //
 
-#import "ScoringOfficial.h"
+#import "ScoringFamily.h"
 #import "RoundDetails.h"
 #import "NewRound.h"
 
-@interface ScoringOfficial (Private)
+@interface ScoringFamily (Private)
 
 - (NSArray *)roundScoresFromNewRound:(NewRound *)round;
 - (NSArray *)finalScoresFromRoundScores:(NSArray *)roundScores fromPlayers:(NSArray *)players;
 
 @end
 
-@implementation ScoringOfficial
+@implementation ScoringFamily
 
 - (RoundDetails *)roundDetailsFromNewRound:(NewRound *)round fromPlayers:(NSArray *)players {
 	RoundDetails *details = [RoundDetails alloc];
@@ -51,18 +51,18 @@
 	else if (round.contrat == ContratTypeGardeContre) {
 		total = total * 6;
 	}
-
+	
 	if (!contractDone) {
 		total = -total;
 	}
 	
 	NSMutableArray *array = [[NSMutableArray alloc] initWithObjects:
-					  [NSNumber numberWithInt:-total],
-					  [NSNumber numberWithInt:-total],
-					  [NSNumber numberWithInt:-total],
-					  [NSNumber numberWithInt:-total],
-					  [NSNumber numberWithInt:-total], nil];
-
+							 [NSNumber numberWithInt:-total],
+							 [NSNumber numberWithInt:-total],
+							 [NSNumber numberWithInt:-total],
+							 [NSNumber numberWithInt:-total],
+							 [NSNumber numberWithInt:-total], nil];
+	
 	if (round.preneurIndex == round.partenaireIndex) {
 		[array replaceObjectAtIndex:round.preneurIndex withObject:[NSNumber numberWithInt:total * 4]];
 	}
@@ -70,7 +70,7 @@
 		[array replaceObjectAtIndex:round.preneurIndex withObject:[NSNumber numberWithInt:total * 2]];
 		[array replaceObjectAtIndex:round.partenaireIndex withObject:[NSNumber numberWithInt:total]];
 	}
-
+	
 	return array;
 }
 
@@ -85,6 +85,4 @@
 	return array;
 }
 
-
 @end
-
