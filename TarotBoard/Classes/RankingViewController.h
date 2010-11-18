@@ -12,7 +12,6 @@
 
 @interface RankingViewController : UIViewController <UIScrollViewDelegate> {
 	NSArray *players;
-	NSArray *rankings;
 	RankingUserControl *ranking1;
 	RankingUserControl *ranking2;
 	RankingUserControl *ranking3;
@@ -21,8 +20,7 @@
 	UIScrollView *scrollView;
 }
 
-@property (nonatomic, copy) NSArray *players;
-@property (nonatomic, readonly, copy) NSArray *rankings;
+@property (nonatomic, retain) NSArray *players;
 @property (nonatomic, retain) IBOutlet RankingUserControl *ranking1;
 @property (nonatomic, retain) IBOutlet RankingUserControl *ranking2;
 @property (nonatomic, retain) IBOutlet RankingUserControl *ranking3;

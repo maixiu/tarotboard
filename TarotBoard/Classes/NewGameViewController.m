@@ -63,7 +63,7 @@
 #pragma mark Events
 
 - (void)navigationStartClick:(id)sender {
-	GameMainViewController *gameMainView = [[GameMainViewController alloc] initWithNibName:@"GameMainView" bundle:nil];
+	GameMainViewController *gameMainView = [[GameMainViewController alloc] init];
 	
 	gameMainView.players = players;
 		

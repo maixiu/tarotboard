@@ -60,6 +60,7 @@
 		self.backColor = _color;
 		self.buttons = _array;
 		self.pageNumber = _pageNumber;
+		self.selectedIndex = -1;
 	}
 	
 	return self;

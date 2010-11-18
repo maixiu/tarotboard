@@ -7,47 +7,43 @@
 //
 
 #import "ManchesViewController.h"
-
+#import "ManchesView.h"
+#import "ManchesPlayersView.h"
+#import "RoundDetails.h";
 
 @implementation ManchesViewController
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
+@synthesize manchesView, manchesPlayerView, players, scrollView, roundNum;
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-*/
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+	[manchesPlayerView initWithPlayers:players];
 }
 
-- (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
+#pragma mark -
+#pragma mark Methods
+
+- (void)updateViewWithRound:(RoundDetails *)round {
+	[manchesPlayerView updateViewWithRoundDetails:round];
+	[manchesView addRound:round withRoundNum:roundNum];
+	roundNum++;
+	
+	scrollView.contentSize = CGSizeMake(15 + roundNum * 60, 367);
 }
+
+#pragma mark -
+#pragma mark Memory Management
 
 - (void)viewDidUnload {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+	[super viewDidUnload];
+	self.manchesView = nil;
+	self.manchesPlayerView = nil;
 }
-
 
 - (void)dealloc {
     [super dealloc];
+	[manchesView release], manchesView = nil;
+	[manchesPlayerView release], manchesPlayerView = nil;
 }
 
 

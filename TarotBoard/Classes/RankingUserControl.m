@@ -30,7 +30,7 @@
 	playerName.minimumFontSize = 8;
 	playerName.adjustsFontSizeToFitWidth = YES;
 	
-	score = [[UILabel alloc] initWithFrame:CGRectMake(105, 17, 160, 21)];
+	score = [[UILabel alloc] initWithFrame:CGRectMake(105, 21, 160, 21)];
 	score.lineBreakMode = UILineBreakModeTailTruncation;
 	score.textAlignment = UITextAlignmentLeft;
 	score.minimumFontSize = 8;
