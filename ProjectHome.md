@@ -1,0 +1,1 @@
+It's an iPhone application  for help you calculate and count the score for french tarot card game.
